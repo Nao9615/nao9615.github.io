@@ -1,41 +1,25 @@
-確かに、HTMLを使えばリンク集を簡単に作ることができます。以下が基本的な構造になります。
-
-```html
 <!DOCTYPE html>
 <html>
 <head>
-	<title>リンク集</title>
+	<title>Nao</title>
+	<style>
+		body {
+			background-color: #333333;
+			color: #ffffff;
+			font-family: 'DIN Alternate', sans-serif;
+		}
+		a {
+			color: #ffffff;
+		}
+	</style>
 </head>
 <body>
-	<h1>リンク集</h1>
+	<h1>Nao</h1>
 	
-	<h2>ニュース</h2>
 	<ul>
-		<li><a href="https://www.nhk.or.jp/" target="_blank">NHKニュース</a></li>
-		<li><a href="https://www.asahi.com/" target="_blank">朝日新聞デジタル</a></li>
-		<li><a href="https://www.yomiuri.co.jp/" target="_blank">読売新聞オンライン</a></li>
-	</ul>
-	
-	<h2>検索エンジン</h2>
-	<ul>
-		<li><a href="https://www.google.co.jp/" target="_blank">Google</a></li>
-		<li><a href="https://www.yahoo.co.jp/" target="_blank">Yahoo!Japan</a></li>
-		<li><a href="https://www.bing.com/" target="_blank">Bing</a></li>
-	</ul>
-
-	<h2>ショッピング</h2>
-	<ul>
-		<li><a href="https://www.amazon.co.jp/" target="_blank">Amazon</a></li>
-		<li><a href="https://www.rakuten.co.jp/" target="_blank">楽天市場</a></li>
-		<li><a href="https://www.yahoo.co.jp/shoping/" target="_blank">Yahooショッピング</a></li>
+		<li><a href="https://x.com/nao_9615" target="_blank">X</a></li>
+		<li><a href="https://www.instagram.com/nao_9615_/" target="_blank">Instagram</a></li>
 	</ul>
 
 </body>
 </html>
-```
-
-上記のコードでは、`<h1>`でリンク集のタイトルを付け、`<h2>`でカテゴリー名を付けています。そして`<ul>`の中に`<li>`タグで個々のリンクを並べています。
-
-`<a href="リンク先URL">リンク名</a>`が基本的なリンクの書き方です。`target="_blank"`を付けるとリンク先が新しいタブで開くようになります。
-
-カテゴリーを変えたり、リンクを増減させたりするだけで、簡単にリンク集のページを作れます。CSSを使えばさらにスタイリングも可能です。
